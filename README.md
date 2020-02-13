@@ -1,10 +1,10 @@
-## 人脸智能识别系统
+## 鲁虺人脸智能识别系统
 
 请在最新版`火狐浏览器`测试
 
 接下来咱们一起探索人脸智能识别的具体实现吧！
 
-前端就普通的页面偶尔会有 `ES6` 的语法（极少）[face.js](https://github.com/liufulin90/ai-face/blob/master/static/js/face.js)，后端服务器采用`node`（具体代码查看 [app.js](https://github.com/liufulin90/ai-face/blob/master/app.js)）
+前端就普通的页面偶尔会有 `ES6` 的语法（极少）[face.js](https://github.com/kugeceo/ai-face/blob/master/static/js/face.js)，后端服务器采用`node`（具体代码查看 [app.js](https://github.com/kugeceo/ai-face/blob/master/app.js)）
 
 -------
 ### 目录索引
@@ -270,7 +270,7 @@ function Loading() {
 ### 最后
 
 #### 线上环境
-亲，可是试试自己的脸蛋好不好使哦！！！[使劲戳我吧！](http://aiface.linxins.com/)
+亲，可是试试自己的脸蛋好不好使哦！！！[使劲戳我吧！](http://aiface.luhui.net/)
 
 #### 后记
 - 所有`Web API`接口，应有尽有 [Web API 接口](https://developer.mozilla.org/zh-CN/docs/Web/API)
