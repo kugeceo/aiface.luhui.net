@@ -1,5 +1,5 @@
 ## 鲁虺人脸智能识别系统
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58e956d7-b184-4075-9555-c84070b0283b/deploy-status)](https://app.netlify.com/sites/luhuiaiface/deploys)
 请在最新版`火狐浏览器`测试
 
 接下来咱们一起探索人脸智能识别的具体实现吧！
