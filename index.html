@@ -2,41 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>鲁虺人脸智能识别系统 https://aiface.luhui.net/</title>
-    <link href="static/css/face.css" rel="stylesheet" type="text/css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>鲁虺人脸智能识别系统 http://aiface.luhui.net ai换脸趣味明星合影</title>
+
+    <link rel="stylesheet" href="css/base.css">
+    <style>
+        .content{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+            background: url("img/bg_img.png") no-repeat;
+            background-size: 100% 100%;
+        }
+        .face{
+
+            display: block;
+            width: 4.62rem;
+            height: 1.02rem;
+            background: url("img/face.png") no-repeat;
+            background-size: 100% 100%;
+        }
+        .aiface{
+            display: block;
+            width: 4.62rem;
+            height: 1.02rem;
+            background: url("img/aiface.png") no-repeat;
+            background-size: 100% 100%;
+        }
+        .body{
+            display: block;
+            width: 4.62rem;
+            height: 1.02rem;
+            background: url("img/body.png") no-repeat;
+            background-size: 100% 100%;
+            margin-top: 0.5rem;
+        }
+        .links{
+            width: 4.84rem;
+            height: 9.05rem;
+            background: url("img/indexcircle.png") no-repeat;
+            background-size: 100% 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
-<div class="bodyfixed">
-    <h1 class="head-title">鲁虺人脸智能识别系统 <span>请使用最新火狐浏览器打开</span></h1>
-    <div class="wrap">
-        <div class="left">
-            <div>
-                <div>
-                    <img src="static/images/myavatar.png" id="facedata">
-                </div>
-                <img class="icon animation" src="static/images/prompt.png"/>
-                <br>
-                <div>请上传一张照片（png、jpg） <input type="file" id="uploadfile"></div>
-                <canvas id="canvas_l" width="300" height="300"></canvas>
+
+    <div class="content">
+
+        <div class="links">
+            <div class="l">
+                <a href="face/face.html" class="face"></a>
+
+                <a href="index.htm" class="aiface"></a>
+				
+                <a href="body/index.html" class="body"></a>
             </div>
+
         </div>
-        <div class="middle">
-            <button id="open" class="control-btn">开启摄像头</button>
-            <button id="scanface" class="control-btn">人脸识别</button>
-            <button id="close" class="control-btn">关闭摄像头</button>
-        </div>
-        <div class="right">
-            <video id="video"></video>
-            <br>
-            <br>
-            <div>
-                精准度调节：<input type="number" id="accuracy" value="90" max="100" min="80">
-            </div>
-        </div>
+
     </div>
-</div>
-<script type="text/javascript" src="static/js/jquery.js"></script>
-<script type="text/javascript" src="static/js/face.js"></script>
+
+
+
 
 <!--百度自动推送代码-->
 <script>
@@ -71,6 +104,9 @@
 
 <div style="display:none">
     <script src="http://s11.cnzz.com/z_stat.php?id=610720&web_id=610720" language="JavaScript"></script>
-</div>
+
+    <script src="js/jquery-1.12.0.min.js"></script>
+
+    <script src="js/rem.js"></script>
 </body>
 </html>
